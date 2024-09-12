@@ -1,0 +1,30 @@
+.font-italic{
+    font-style: italic;
+}
+body{
+    font-family: "Trebuchet MS", "Verdana", sans-serif;
+    background-color: #6d654d;
+    color: #fff;
+}
+h1{
+    font-size: 40pt;
+}
+h1,h2{
+    color: #9FC2F8;
+}
+#header{
+    border-bottom: 1px solid #fff;
+}
+#header span{
+    color: #FFF86B;
+    font-weight: bold;
+}
+#content .imdb{
+    color: #FF4F4F;
+}
+#content .mood{
+    height: 300px;
+}
+.footer-item{
+    text-decoration: none;
+}
