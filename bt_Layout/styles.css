@@ -1,0 +1,45 @@
+body{
+    background-image: linear-gradient(#D3D1D1,white);
+    background-repeat: no-repeat;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+}
+.header h1{
+    margin-top: 0;
+}
+.title{
+    background-color: rgb(179, 232, 245);
+    color: rgb(0, 102, 255);
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.block{
+    padding: 10px;
+    position: relative;
+}
+.header{
+    padding: 10px;
+}
+.image{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+}
+.style1{
+    color: rgb(7, 5, 128);
+    font-weight: bold;
+}
+.style2{
+    color: rgb(25, 75, 167);
+    font-weight: bold;
+}
+.tableinfor{
+    font-size: 20px;
+}

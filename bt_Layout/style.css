@@ -1,0 +1,47 @@
+body {
+    background-image: linear-gradient(rgb(104, 15, 15),white);
+    background-repeat: no-repeat;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.header {
+    background-color: rgb(61, 82, 196);
+    height: 100px;
+}
+.footer {
+    background-color: rgb(61, 196, 129);
+    height: 100px;
+    clear: both;
+}
+.left {
+    background-color: rgb(182, 37, 37);  
+    height: 400px;
+    width: 20%;
+    float: left;
+}
+.main {
+    background-color: rgb(158, 209, 209);
+    height: 400px;
+    width: 60%;
+    float: left;
+    box-sizing: content-box;
+}
+.right {
+    background-color: rgb(180, 115, 39);
+    height: 400px;
+    width: 20%;
+    float: left;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding: 10px;
+}
+li:hover {
+    background-color: yellow;
+    color: rgb(15, 180, 43);
+}
